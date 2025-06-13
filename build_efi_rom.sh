@@ -27,5 +27,5 @@ cp Build/OvmfX64/DEBUG_GCC5/X64/PlatformGOPPolicy.efi Build/
 cp Build/OvmfX64/DEBUG_GCC5/X64/IgdAssignmentDxe.efi Build/
 cp ./BaseTools/Source/C/bin/EfiRom Build/
 cd Build
-./EfiRom -e N3350.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o N3350.rom
+./EfiRom -e 13900hx-gop.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xa788 -o 13900hx-a788-666.rom
 ls
