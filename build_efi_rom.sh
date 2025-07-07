@@ -27,5 +27,5 @@ cp Build/OvmfX64/DEBUG_GCC5/X64/PlatformGOPPolicy.efi Build/
 cp Build/OvmfX64/DEBUG_GCC5/X64/IgdAssignmentDxe.efi Build/
 cp ./BaseTools/Source/C/bin/EfiRom Build/
 cd Build
-./EfiRom -e IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o vbiso-666.rom
+./EfiRom -e IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o vbios-666.rom
 ls
